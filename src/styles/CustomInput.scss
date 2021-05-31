@@ -1,0 +1,21 @@
+.displayFlex{
+    display: flex;
+    background-color: ;
+flex-flow: column wrap;
+    .flexrow{
+        display: flex;
+        flex-flow: row wrap;
+    }
+
+
+    .MuiInputBase-input{
+        color : grey ;
+        font-size: 9px;
+        width:  100%;
+        border: none;
+
+        &::after{
+            border-bottom : none
+        }
+    }
+}
