@@ -17,4 +17,14 @@ flex-flow: column wrap;
             border-bottom : none
         }
     }
+    .MuiFormControl-root{
+        color: white;
+        display: block;
+        width: 24em;
+    }
+    .MuiInputBase-root{
+     
+        display: block;
+        width: 24em;
+    }
 }

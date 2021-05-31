@@ -13,6 +13,31 @@ import '../styles/CustomInput.scss';
 import LockIcon from '@material-ui/icons/Lock';
 import MailOutlineIcon from '@material-ui/icons/MailOutline';
 
+import FormatListNumberedIcon from '@material-ui/icons/FormatListNumbered';
+
+
+
+function VerificationCodeInput(props : any) {
+    return(
+        <div className={`displayFlex`}>
+              <div className={`flexrow`}>
+               <FormatListNumberedIcon style={{color  : 'orange'}}/>
+               <label style={{color: "white" , marginLeft: "10px", marginBottom: "10px"}} htmlFor={props.labeltext}>{props.labeltext}</label>
+              </div>
+                <TextField
+                style={{color: "white" }}
+                id="filled"
+             
+                defaultValue={props.PropValue}
+                variant="filled"
+                />
+        </div>
+    );
+
+}
+
+
+
 function EmailInput(props : any) {
     return(
         <div className={`displayFlex`}>
@@ -51,4 +76,4 @@ function PasswordInput(props : any) {
 
 }
 
-export  {PasswordInput, EmailInput};
+export  {PasswordInput, EmailInput,VerificationCodeInput};

@@ -9,9 +9,6 @@ import { CheckBox } from '@material-ui/icons';
 
 
 
-
-
-
 function CustomButtonLogin() {
     return(
         <div className={`displayFlex`}>
@@ -28,8 +25,8 @@ function CustomButtonSignUp() {
     return(
         <div className={`displayFlex`}>
             <div>
-              <CheckBox  style={{color :"white" , backgroundColor: "white"}}/>
-            <span style={{color: "grey", textAlign: "right" , fontSize: "13px" ,paddingTop: '13px',textAlign: 'left'}}>i have read and agree <b style={{color: "orange"}}>User Management</b></span>
+              <CheckBox   style={{color :"orange" }} />
+            <span style={{color: "grey", fontSize: "13px" ,paddingTop: '13px',textAlign: 'left'}}>I have read and agree <b style={{color: "orange"}}>User Management</b></span>
             </div>
             <Button   className={`BtnOrange`} style={{ width: '20em',backgroundColor : 'orange', color : "white" ,paddingLeft: "14px", paddingRight : "14px" , marginTop: "9px" , marginBottom: '15px'}}>
                  REGISTER

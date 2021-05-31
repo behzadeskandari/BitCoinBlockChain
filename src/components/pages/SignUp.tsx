@@ -1,7 +1,7 @@
 import * as React from 'react';
 
 import  {CustomButtonSignUp}  from '../CustomButton';
-import {EmailInput , PasswordInput} from '../CustomInput';
+import {EmailInput , PasswordInput, VerificationCodeInput} from '../CustomInput';
 
 import '../../styles/SignUp.scss'
 
@@ -13,12 +13,13 @@ function SignUp() {
         <EmailInput PropValue={`enter your email address`} labeltext={`Email`} >
          
         </EmailInput>    
-        <PasswordInput  PropValue={`enter your code`} labeltext={`Verification Code`} >
+            <VerificationCodeInput   PropValue={`enter your code`} labeltext={`Verification Code`}  >
+
+        </VerificationCodeInput>
+        <PasswordInput PropValue={`enter your password`} labeltext={`Password`} >
 
         </PasswordInput>
-          <PasswordInput  PropValue={`enter your password`} labeltext={`Password`} >
-
-        </PasswordInput>
+      
           <PasswordInput  PropValue={`confirm your password`} labeltext={`Confirm Password`} >
 
         </PasswordInput>
@@ -27,7 +28,7 @@ function SignUp() {
         </PasswordInput>
         <CustomButtonSignUp />
        <div className={`flexrow `} style={{padding: "10px"}}>
-            <span style={{color: "white"}}>OR</span><a style={{color: 'orange',marginLeft: "10px", fontSize: "12px"}}> Register Here</a>
+            <span style={{color: "white"}}>Or Login</span><a style={{color: 'orange',marginLeft: "10px", fontSize: "16px", fontWeight: "bolder"}}>Here</a>
         </div>
         </div>
     );
