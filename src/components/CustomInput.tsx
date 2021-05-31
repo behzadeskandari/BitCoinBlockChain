@@ -15,6 +15,7 @@ import MailOutlineIcon from '@material-ui/icons/MailOutline';
 
 import FormatListNumberedIcon from '@material-ui/icons/FormatListNumbered';
 
+import AddIcon from '@material-ui/icons/Add';
 
 
 function VerificationCodeInput(props : any) {
@@ -76,4 +77,23 @@ function PasswordInput(props : any) {
 
 }
 
-export  {PasswordInput, EmailInput,VerificationCodeInput};
+function InviteInput(props : any) {
+    return(
+        <div className={`displayFlex`}>
+              <div className={`flexrow`}>
+               <AddIcon style={{color  : 'orange'}}/>
+               <label style={{color: "white" , marginLeft: "10px", marginBottom: "10px"}} htmlFor={props.labeltext}>{props.labeltext}</label>
+              </div>
+                <TextField
+                style={{color: "white"}}
+                id="filled"
+             
+                defaultValue={props.PropValue}
+                variant="filled"
+                />
+        </div>
+    );
+
+}
+
+export  {PasswordInput, EmailInput,VerificationCodeInput,InviteInput};
