@@ -1,6 +1,8 @@
 .displayFlex{
     display: flex;
-flex-flow: column wrap;
+    flex-flow: column wrap;
+    background-color: #212734;
+    margin-top: 10px;
     .flexrow{
         display: flex;
         flex-flow: row wrap;

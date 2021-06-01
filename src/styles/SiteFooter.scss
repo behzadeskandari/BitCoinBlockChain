@@ -1,0 +1,78 @@
+.DisplayFlexBox{
+    display: flex;
+    flex-flow: column wrap;
+    
+     margin-top: 20px !important;
+     span.BorderClass{
+                   display: flex;
+                    flex-flow: column;
+                    width: 10px;
+                    padding: 2px;
+                    height: 2px;
+                    background: orange;
+            }
+            .InnerFlex{
+                display: "flex" ;
+                flex-flow: "row wrap";
+                
+                margin-left: 2em;
+                .FooterSpanStyle{
+                background-color: orange;
+                 width: 35px;
+                 height: 5px;
+                 border-radius: 5px;
+                 line-height:1;
+                 margin-top: 7px;
+                 display: inline-flex;
+            }
+
+             
+            .FooterHaderSpan{
+                color: white ;
+                
+                margin-left: 10px; font-size: 16px;
+                margin-right:  100px;
+            }
+            
+        }
+        
+        .LinkList{
+            ul{
+                li{
+                    list-style: none;
+                    color :grey;
+                    padding-top: 10px;
+                    padding-bottom: 10px;
+                }
+            }
+        }
+        .IconHolder{
+            margin-top: 20px;
+            color: orange;
+            padding-left: 20px;
+            padding-right: 20px;
+            margin-left: 20px;
+            
+        }
+        .Best{
+           color: grey;
+padding-left: 6em;
+margin-bottom: 10px;
+        }
+        .Copyright{
+            color: grey;
+            padding-left: 6em;
+        }
+
+            .MuiGrid-item {
+                margin: 0;
+                box-sizing: border-box;
+                width: 20%;
+            }
+
+      
+}
+
+            
+         
+

@@ -1,9 +1,9 @@
 import * as React from 'react';
 
-import  {CustomButtonSignUp}  from '../CustomButton';
-import {EmailInput , PasswordInput, VerificationCodeInput,InviteInput} from '../CustomInput';
+import  {CustomButtonSignUp}  from '../components/_Shared/CustomButton';
+import {EmailInput , PasswordInput, VerificationCodeInput,InviteInput} from '../components/_Shared/CustomInput';
 
-import '../../styles/SignUp.scss'
+import '../styles/SignUp.scss'
 
 function SignUp() {
     return(

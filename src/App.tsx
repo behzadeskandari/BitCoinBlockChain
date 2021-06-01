@@ -1,9 +1,9 @@
-import React from 'react';
+import React, { FC } from 'react';
 import BackGround from './assets/PIcture/background.png';
-import Layout from './components/Layout';
+import Layout from './components/_Shared/Layout';
 import './styles/App.css';
 
-function App() {
+const App : FC = () => {
   return (
     <>
     <div className="App" style={{ backgroundImage : `url(${BackGround})`}}>

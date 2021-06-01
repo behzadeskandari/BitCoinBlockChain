@@ -1,8 +1,8 @@
 import { TextField } from '@material-ui/core';
 import * as React from 'react';
 import '../../styles/Login.scss'
-import {CustomButtonLogin} from '../CustomButton';
-import {EmailInput , PasswordInput} from '../CustomInput';
+import {CustomButtonLogin} from '../components/_Shared/CustomButton';
+import {EmailInput , PasswordInput} from '../components/_Shared/CustomInput';
 
 function Login() {
     return(
