@@ -22,11 +22,11 @@ function SiteFooter() {
                         Copyright 2021 All Right Reserved.
                     </div>
                      <div className={`IconHolder`}>
-                        <WhatsAppIcon style={{marginLeft: '35px'}}/>
-                        <InstagramIcon style={{marginLeft: '35px'}}/>
-                        <TwitterIcon style={{marginLeft: '35px'}}/>
-                        <TelegramIcon style={{marginLeft: '35px'}}/>
-                        <FacebookIcon style={{marginLeft: '35px'}}/>
+                        <WhatsAppIcon style={{marginLeft: '15px' , fontSize : '24px'}}/>
+                        <InstagramIcon style={{marginLeft: '15px', fontSize : '24px'}}/>
+                        <TwitterIcon style={{marginLeft: '15px', fontSize : '24px'}}/>
+                        <TelegramIcon style={{marginLeft: '15px', fontSize : '24px'}}/>
+                        <FacebookIcon style={{marginLeft: '15px', fontSize : '24px'}}/>
                     </div>
                 </Grid>
                 <Grid item className={`DisplayFlexBox`}>
@@ -35,7 +35,7 @@ function SiteFooter() {
                         <span className={`FooterHaderSpan`} >PROFILE</span>
                     </div>
                     <div className={`LinkList`}>
-                        <ul>
+                        <ul style={{width: '60%'}}>
                             <li>
                                 About Us
                             </li>
@@ -59,7 +59,7 @@ function SiteFooter() {
                         <span className={`FooterHaderSpan`} >HELP</span>
                     </div>
                     <div className={`LinkList`}>
-                        <ul>
+                        <ul style={{width: '60%'}}>
                             <li>
                                 Beginner's Guide
                             </li>
@@ -83,7 +83,7 @@ function SiteFooter() {
                         <span className={`FooterHaderSpan`} >CONDITIONS</span>
                     </div>
                     <div className={`LinkList`}>
-                        <ul>
+                        <ul style={{width: '60%'}}> 
                             <li>
                                 Disclaimer
                             </li>
@@ -107,7 +107,7 @@ function SiteFooter() {
                         <span className={`FooterHaderSpan`} >CONTACT US</span>
                     </div>
                     <div className={`LinkList`}>
-                        <ul>
+                        <ul style={{width: '60%'}}>
                             <li>
                                 Service Mailbox
                             </li>

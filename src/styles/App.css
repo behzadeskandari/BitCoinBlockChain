@@ -6,3 +6,10 @@
     background-origin: border-box;
   height: 44.1em;
 }
+ .MuiTabs-flexContainer {
+    display: flex;
+    flex-flow: column;
+    width: 15em;
+    margin: 15px;
+    height: 49vh;
+}
