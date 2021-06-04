@@ -1,8 +1,5 @@
-import * as React from 'react';
-import NavigationMenu from './NavigationMenu';
-import makeStyles from "@material-ui/core/styles/makeStyles";
+
 import Button from "@material-ui/core/Button";
-import buttonStyle from "../../assets/Jss/ButtonStyle";
 import { CheckBox } from '@material-ui/icons';
 
 

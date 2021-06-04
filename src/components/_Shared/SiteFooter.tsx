@@ -22,11 +22,11 @@ function SiteFooter() {
                         Copyright 2021 All Right Reserved.
                     </div>
                      <div className={`IconHolder`}>
-                        <WhatsAppIcon style={{marginLeft: '15px' , fontSize : '24px'}}/>
-                        <InstagramIcon style={{marginLeft: '15px', fontSize : '24px'}}/>
-                        <TwitterIcon style={{marginLeft: '15px', fontSize : '24px'}}/>
-                        <TelegramIcon style={{marginLeft: '15px', fontSize : '24px'}}/>
-                        <FacebookIcon style={{marginLeft: '15px', fontSize : '24px'}}/>
+                        <WhatsAppIcon  style={{marginLeft: '15px' , fontSize : '24px'}}/>
+                        <InstagramIcon style={{marginLeft: '15px',  fontSize : '24px'}}/>
+                        <TwitterIcon   style={{marginLeft: '15px',  fontSize : '24px'}}/>
+                        <TelegramIcon  style={{marginLeft: '15px',  fontSize : '24px'}}/>
+                        <FacebookIcon  style={{marginLeft: '15px',  fontSize : '24px'}}/>
                     </div>
                 </Grid>
                 <Grid item className={`DisplayFlexBox`}>

@@ -15,6 +15,7 @@ const App : FC = () => {
     <>
     <div className="App" style={{ backgroundImage : `url(${BackGround})`}}>
           <BrowserRouter basename="/App"> {translate("home",language)}
+            
               <Layout />
 
          </BrowserRouter>

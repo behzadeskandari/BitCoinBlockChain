@@ -1,13 +1,5 @@
 import * as React from 'react';
-import NavigationMenu from './NavigationMenu';
-import Login from '../../pages/Login';
-import Register from '../../pages/SignUp';
 
-import classNames from 'classnames'
-import { makeStyles } from "@material-ui/core/styles";
-import FormControl from "@material-ui/core/FormControl";
-import InputLabel from "@material-ui/core/InputLabel";
-import Input from "@material-ui/core/Input";
 import TextField from '@material-ui/core/TextField';
 import '../../styles/CustomInput.scss';
 import LockIcon from '@material-ui/icons/Lock';

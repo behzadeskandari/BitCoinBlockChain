@@ -12,4 +12,11 @@
     width: 15em;
     margin: 15px;
     height: 49vh;
+    padding-top: 10px;
+    margin-top: 5em;
+    border-right:  2px solid grey;
+}
+
+.MuiTabs-scroller{
+
 }
