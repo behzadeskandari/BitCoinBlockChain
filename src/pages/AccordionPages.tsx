@@ -1,16 +1,13 @@
 import React from 'react'
 import { Link } from 'react-router-dom';
-import { SecuritySettingsWrapper } from '../components/cms/SecuritySettings';
 
 
-import { BrowserRouter, Route, Switch } from 'react-router-dom';
 
 import { Accordion } from '../components/_Shared/CustomAccordions';
-import  AccountSettingWrapper  from '../components/cms/AccountSetting';
 
-interface ISecuritySettingsProps{
-classProp : string
-}
+// interface ISecuritySettingsProps{
+// classProp : string
+// }
 
 
 export function AccordionPages() {
