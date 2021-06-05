@@ -7,6 +7,7 @@
   height: 44.1em;
 }
  .MuiTabs-flexContainer {
+    overflow-y: scroll;
     display: flex;
     flex-flow: column;
     width: 15em;
@@ -18,5 +19,10 @@
 }
 
 .MuiTabs-scroller{
-
+background-color: rgb(41,49,64);
+margin-top: 1.2em;
+margin-bottom: 0.8em;
+margin-left: 0.5em;
+border-bottom-left-radius:10px ;
+border-top-left-radius:10px ;
 }

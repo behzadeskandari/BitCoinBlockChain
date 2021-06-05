@@ -1,0 +1,77 @@
+header.HeaderDrawer {
+    border-bottom: 2px dashed grey;
+    width: 90%;
+    margin: 0 auto;
+    display: flex;
+    margin-top: 10px;
+    .FlexLeft{
+        display: flex;
+        flex-flow: column wrap;
+        width: 50%;
+        height: 8vh;
+        color: white;
+        justify-content: flex-start;
+        align-content: baseline;
+
+       
+        .UserName{
+                font-size: 16px;
+                font-weight: 700;
+
+        }
+        .Email{
+                 margin-right: 10px;
+        }
+    }
+
+    .circuleUsePicture{
+                color: orange;
+                width: 3em;
+                height: 3em;
+                display: block;
+                background: orange;
+                border-radius: 50%;
+                margin-right: 15px;
+    }   
+    .FlexRight{
+                margin-bottom: 20px;
+                display: flex;
+                width: 50%;
+                justify-content: flex-end;
+                margin-top: 15px;
+        .badge{
+
+        }
+    }
+
+}
+
+.BodyDrawer{
+    display: flex;
+    height: 87%;
+
+    .PersonalIndentity{
+            width: 100%;
+            display: flex;
+            padding-right: 3em;
+            padding-top: 3em;
+            padding-left: 3em;
+            .PersonaIdentityBadge{
+                background-color: rgb(33,28,52);
+                display : flex;
+                width: 5%;
+                height: 3em;
+                flex-flow: row wrap;
+                border-radius: 5px;
+                justify-content: center;
+                align-content: center;
+
+            }
+  }
+
+  .InputHolder{
+      display:  block ruby;
+  }
+}
+
+

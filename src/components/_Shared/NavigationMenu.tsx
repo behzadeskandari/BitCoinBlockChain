@@ -1,14 +1,18 @@
 
-import  React, {Fragment,useCallback , useState, useEffect , useRef , FC } from 'react';
-import {Router, Switch , Route} from 'react-router';
-
+import  React from 'react';
 import {CustomLogOut} from './CustomLogOut';
-
-import { makeStyles, Theme } from '@material-ui/core/styles';
 import '../../styles/NavigationMenu.scss';
 import { CustomLogIn } from './CustomLogIn';
 import { SecuritySettingsWrapper } from '../cms/SecuritySettings';
 import  AccountSettingWrapper  from '../cms/AccountSetting';
+import { CurrencyAssetsWrapper } from '../cms/CurrencyAssets';
+import { BillDetailsWrapper } from '../cms/BillDetails';
+import { QuickExchangeWrapper } from '../cms/QuickExchange';
+import { DepositWrapper } from '../cms/Deposit';
+import { Widthdraw } from '../uc/Withdraw';
+import APIKey from '../cms/APIKey';
+import Exchange from '../exchange/Exchange';
+import { Link } from 'react-router-dom';
 
 interface HeaderProps {
   fixed? : boolean;
@@ -42,22 +46,14 @@ interface IListState{
                 </div>
                 <ul className="list-group">
                       {this.state.names.map(name => {
-                          return <li className={`list-group-item`}>{name}</li>
+                          return <Link to={name} className={`list-group-item`}>{name}</Link>
                       })}
                 </ul>
                 { this.state.logOut === false ?  <CustomLogIn /> : <CustomLogOut /> }
-                
                 </div>
-                   <div className={`SecurityBox`}>
-
-                                    <Route exact path={'/SecuritySettings'} component={SecuritySettingsWrapper}> SecuritySettings </Route>
-                                    <Route path={'/AccountSetting'} component={AccountSettingWrapper}> AccountSetting </Route>
-
-                        </div>
-
-                        </>
-              )
+               
+             </>
+             )
             }
-
       }
       

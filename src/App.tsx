@@ -13,7 +13,7 @@ const App : FC = () => {
      const {language} = useSelector((state : RootState) => state.lang);
   return (
     <>
-    <div className="App" style={{ backgroundImage : `url(${BackGround})`}}>
+    <div className="App" style={{ backgroundImage : `url(${BackGround})` ,backgroundSize: '100% 100%', height: '100%'}}>
           <BrowserRouter basename="/App"> {translate("home",language)}
             
               <Layout />
