@@ -1,0 +1,104 @@
+
+.FirstStaticSection{
+                display: flex;
+                flex-flow: row wrap;
+                justify-content: center;
+                background-color: #293140;
+                width: 65%;
+                margin: 0 auto 20px;
+                border-radius: 15px;
+        .CardOne , .CardTwo , .CardThree , .CardFour {
+
+                display: flex;
+                flex-flow: column wrap;
+                border-right: 2px dashed gray;
+                width: 12.6em;
+                
+                .FlexContainer{
+                    display: flex;
+                    flex-flow: row wrap;
+
+                    .InnerColumn{
+                        display: flex;
+                        flex-flow: column wrap;
+                        margin-left: 10px;
+                        .BitCoin{
+                            color: grey;
+                            font-size: 12px;
+                            margin-left: 15px;
+                        }
+                        .Money{
+                            color: white;
+                            font-size: 16px;
+                            font-weight: bolder;
+                            margin-left: 15px;
+                            margin-bottom: 20px;
+                        }
+                    }
+                }
+
+                .DetailHolder{
+                        padding: 10px;
+                        font-size: 14px;
+                }
+                .DetailHolderSecond{
+                        padding: 10px;
+                        font-size: 14px;
+                }
+                .DetailHolderThird{
+                        padding: 10px;
+                        font-size: 14px;
+                }
+                .DetailHolderFourth{
+                        padding: 10px;
+                        font-size: 14px;
+                }
+        }
+        .CardFour {
+
+                display: flex;
+                flex-flow: column wrap;
+                width: 12.6em;
+                
+                .FlexContainer{
+                    display: flex;
+                    flex-flow: row wrap;
+
+                    .InnerColumn{
+                        display: flex;
+                        flex-flow: column wrap;
+                        margin-left: 10px;
+                        .BitCoin{
+                            color: grey;
+                            font-size: 12px;
+                            margin-left: 15px;
+                        }
+                        .Money{
+                            color: white;
+                            font-size: 16px;
+                            font-weight: bolder;
+                            margin-left: 15px;
+                            margin-bottom: 20px;
+                        }
+                    }
+                }
+
+                .DetailHolder{
+                        padding: 10px;
+                        font-size: 14px;
+                }
+                .DetailHolderSecond{
+                        padding: 10px;
+                        font-size: 14px;
+                }
+                .DetailHolderThird{
+                        padding: 10px;
+                        font-size: 14px;
+                }
+                .DetailHolderFourth{
+                        padding: 10px;
+                        font-size: 14px;
+                }
+        }
+      
+}

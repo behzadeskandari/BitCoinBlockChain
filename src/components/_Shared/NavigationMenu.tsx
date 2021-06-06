@@ -26,14 +26,14 @@ interface IListState{
   logOut? : boolean;
 }
 
-      export default class ListLink extends React.Component<IListProps,IListState>
-      {
+export default class ListLink extends React.Component<IListProps,IListState>
+{
             constructor(props : IListProps)
             {
               super(props);
               this.state = {
                 names :  ['Home','Exchange','C2C Exchange','OTC','Pro Lab','Promoting Partner ','Announcment'],
-                 logOut : true
+                logOut : true
               }
             }
             render(){
@@ -53,7 +53,7 @@ interface IListState{
                 </div>
                
              </>
-             )
-            }
-      }
+            )
+        }
+}
       
