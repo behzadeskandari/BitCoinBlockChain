@@ -1,11 +1,14 @@
 import React from "react";
+
 import ReactDOM from "react-dom";
+
 import "../../styles/Carousel.scss";
+
 const { Component } = React;
+
 const { render } = ReactDOM;
 
-const carouselContainer = document.querySelector(".carousel-container");
-
+//const carouselContainer = document.querySelector(".carousel-container");
 // Data for carousel
 
 export class CarouselLeftArrow extends Component {
@@ -214,5 +217,3 @@ export class Carousel extends Component {
   }
 }
 
-// Render Carousel component
-//render(<Carousel slides={carouselSlidesData} />, carouselContainer);

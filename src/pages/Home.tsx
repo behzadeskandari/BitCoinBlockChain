@@ -1,11 +1,16 @@
 
 import SiteFooter from '../components/_Shared/SiteFooter';
 
-import NavigationMenu from '../components/_Shared/NavigationMenu';
 import CustomTabsWrapper from '../components/_Shared/CustomTabsWrapper';
 import AboveTheFold from '../components/_Shared/AboveTheFold';
+import AboveTheFooter from '../pages/AboveTheFooter';
 import {Carousel} from '../components/_Shared/Carousel';
 import BegginerGuide from '../components/_Shared/BegginerGuide';
+import FirstStatisticSection from './FirstStatisticSection';
+import SecondStatisticSection from './SecondStatisticSection';
+import AboutYekaBexSection from './AboutYekaBexSection';
+import MobileSection from './MobileSection'
+
 const carouselSlidesData = [
   {
     content:
@@ -52,20 +57,31 @@ const carouselSlidesData = [
 ];
 
 export default function  Home(){
-   var items= [1,2,3,4,5,6,7,8,9,10]
+  // var items= [1,2,3,4,5,6,7,8,9,10]
     return (
        <div>
-                 <NavigationMenu/>
+                
                     {/*    <Login />    */}
                     {/*    <SignUp />   */}
                     {/* <CustomTabsWrapper /> */}
                        <AboveTheFold />
+                       
                        <Carousel slides={carouselSlidesData} />
-
+                       
                        <BegginerGuide />
 
+                       <FirstStatisticSection />
+                       
+                       <SecondStatisticSection />
+                       
+                       <AboutYekaBexSection />
+                       
+                       <AboveTheFooter />
+                       
+                       <MobileSection />
+                       
+                       <SiteFooter />
 
-                <SiteFooter />
        </div>
    ) 
 } 

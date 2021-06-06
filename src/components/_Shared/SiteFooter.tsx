@@ -1,5 +1,5 @@
 import { Grid } from '@material-ui/core';
-import * as React from 'react';
+// import * as React from 'react';
 import logoFooter from '../../assets/images/logoFooter.png';
 import '../../styles/SiteFooter.scss';
 import WhatsAppIcon from '@material-ui/icons/WhatsApp';

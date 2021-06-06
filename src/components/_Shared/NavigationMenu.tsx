@@ -3,21 +3,21 @@ import  React from 'react';
 import {CustomLogOut} from './CustomLogOut';
 import '../../styles/NavigationMenu.scss';
 import { CustomLogIn } from './CustomLogIn';
-import { SecuritySettingsWrapper } from '../cms/SecuritySettings';
-import  AccountSettingWrapper  from '../cms/AccountSetting';
-import { CurrencyAssetsWrapper } from '../cms/CurrencyAssets';
-import { BillDetailsWrapper } from '../cms/BillDetails';
-import { QuickExchangeWrapper } from '../cms/QuickExchange';
-import { DepositWrapper } from '../cms/Deposit';
-import { Widthdraw } from '../uc/Withdraw';
-import APIKey from '../cms/APIKey';
-import Exchange from '../exchange/Exchange';
+// import { SecuritySettingsWrapper } from '../cms/SecuritySettings';
+// import  AccountSettingWrapper  from '../cms/AccountSetting';
+// import { CurrencyAssetsWrapper } from '../cms/CurrencyAssets';
+// import { BillDetailsWrapper } from '../cms/BillDetails';
+// import { QuickExchangeWrapper } from '../cms/QuickExchange';
+// import { DepositWrapper } from '../cms/Deposit';
+// import { Widthdraw } from '../uc/Withdraw';
+// import APIKey from '../cms/APIKey';
+// import Exchange from '../exchange/Exchange';
 import { Link } from 'react-router-dom';
 
-interface HeaderProps {
-  fixed? : boolean;
-  transparent?: boolean;
-}
+// interface HeaderProps {
+//   fixed? : boolean;
+//   transparent?: boolean;
+// }
 interface IListProps{
 
 }

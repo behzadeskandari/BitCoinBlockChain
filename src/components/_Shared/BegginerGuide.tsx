@@ -23,30 +23,30 @@ export default function BegginerGuide(){
                         Yukabex Official Customer Service
                     </span>
             </div>
-            <div className={`GuideHolder`} style={{ backgroundColor:'#293140' ,marginTop: '15px' ,display: 'flex',flexFlow: 'row wrap',width: '78%',height: '90px'}} >
-                   <div style={{display: 'flex',backgroundColor : 'orange' ,  borderTopLeftRadius: '10px',borderBottomLeftRadius: '10px', width: '23%', margin:'10px'}}>
-                        <img src={DollarSign} width={30} height={30}  style={{marginTop: '22px', marginRight: '16px'}}/>
+            <div className={`GuideHolder`} style={{ backgroundColor:'#293140' ,marginTop: '15px' ,display: 'flex',flexFlow: 'row wrap',width: '80%',height: '90px'}} >
+                   <div style={{display: 'flex',backgroundColor : '#FAAF6A' ,  borderTopLeftRadius: '10px',borderBottomLeftRadius: '10px', width: '23%', margin:'10px'}}>
+                        <img src={DollarSign} width={30} height={30}  style={{marginTop: '22px', marginLeft: '16px', marginRight: '16px'}}/>
                         <div style={{display: 'flex', flexFlow: 'row wrap' , justifyContent: 'left', alignContent: 'center' , color: 'white',fontSize: '16px'}}>
                             <span>Curerency Transaction</span>
                             <span>Use One Digital Asset To</span>
                         </div>
                    </div>
                    <div style={{display: 'flex',backgroundColor : '#1D2330' , borderTopLeftRadius: '10px',borderBottomLeftRadius: '10px', width: '23%', margin:'10px'}}>
-                         <img src={minichart} width={30} height={30}  style={{marginTop: '22px', marginRight: '16px',backgroundColor : '#1D2330'}} />
+                         <img src={minichart} width={30} height={30}  style={{marginTop: '22px', marginLeft: '16px', marginRight: '16px',backgroundColor : '#1D2330'}} />
                         <div style={{display: 'flex', flexFlow: 'row wrap' , justifyContent: 'left', alignContent: 'center' , color: 'white',fontSize: '15px'}}>
                             <span>Option Contract</span>
                             <span>Is A Digital Asset Derivat</span>
                         </div>
                    </div>
                    <div style={{display: 'flex',backgroundColor : '#1D2330' , borderTopLeftRadius: '10px',borderBottomLeftRadius: '10px', width: '23%', margin:'10px'}}>
-                        <img src={CubeSvg} width={30} height={30} style={{marginTop: '22px', marginRight: '16px'}}/>
+                        <img src={CubeSvg} width={30} height={30} style={{marginTop: '22px',  marginLeft: '16px' ,marginRight: '16px'}}/>
                         <div style={{display: 'flex', flexFlow: 'row wrap' , justifyContent: 'left', alignContent: 'center' , color: 'white', fontSize: '13px'}}>
                             <span>Contract Transaction</span>
                             <span>T + 0 Two-Way Trading Virt</span>
                         </div>
                    </div>
                    <div style={{display: 'flex',backgroundColor : '#1D2330' , borderTopLeftRadius: '10px',borderBottomLeftRadius: '10px', width: '23%', margin:'10px'}}>
-                        <img src={Sheild} width={30} height={30} style={{marginTop: '22px', marginRight: '16px'}}/>
+                        <img src={Sheild} width={30} height={30} style={{marginTop: '22px', marginLeft: '16px', marginRight: '16px'}}/>
                         <div style={{display: 'flex', flexFlow: 'row wrap' , justifyContent: 'left', alignContent: 'center' , color: 'white',fontSize: '16px'}}>
                             <span>Quick Exchange</span>
                             <span>Quickly Exhchange Digital</span>
