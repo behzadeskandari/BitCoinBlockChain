@@ -10,7 +10,7 @@ import FacebookIcon from '@material-ui/icons/Facebook';
 
 function SiteFooter() {
     return(
-        <div style={{ backgroundColor : 'rgba(41,49,64)'}}>
+        <div style={{ backgroundColor : 'rgba(41,49,64)', position: 'relative'}}>
         <footer>
             <Grid container >
                 <Grid item className={`DisplayFlexBox`}>

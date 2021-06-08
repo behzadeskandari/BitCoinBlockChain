@@ -1,4 +1,5 @@
 import React from 'react'
+import TabsWrappedLabel from '../components/_Shared/TabsWrappedLabel'
 
 
 
@@ -6,9 +7,7 @@ import React from 'react'
 export default function SecondStatisticSection(){
     return (
         <>
-                <section className={``}>
-                    
-                </section>
+               <TabsWrappedLabel />
         </>
     )
 }

@@ -8,7 +8,7 @@ import {Carousel} from '../components/_Shared/Carousel';
 import BegginerGuide from '../components/_Shared/BegginerGuide';
 import FirstStatisticSection from './FirstStatisticSection';
 import SecondStatisticSection from './SecondStatisticSection';
-import AboutYekaBexSection from './AboutYekaBexSection';
+import AboutYokaBexSection from './AboutYokaBexSection';
 import MobileSection from './MobileSection'
 
 const carouselSlidesData = [
@@ -74,7 +74,7 @@ export default function   Home(){
                        
                        <SecondStatisticSection />
                        
-                       <AboutYekaBexSection />
+                       <AboutYokaBexSection />
                        
                        <AboveTheFooter />
                        

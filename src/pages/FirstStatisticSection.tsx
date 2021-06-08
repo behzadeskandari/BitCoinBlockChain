@@ -6,7 +6,7 @@ import CryptoDollar from '../components/Svg/CryptoDollar.svg';
 import ChartBubble from '../components/Svg/ChartBubble.svg'
 import Btc from '../components/Svg/Btc.svg';
 import SimpleIcon from '../components/Svg/SimpleIcon.svg';
-import minichart from '../components/Svg/miniLineChart.svg';
+import LineChart from '../components/Svg/LineChart.svg';
 
 export default function FirstStatisticSection(){
     return(
@@ -21,7 +21,7 @@ export default function FirstStatisticSection(){
                                 <span className={`Money`}>$494444.40</span>
                             </div>
                         </div>
-                          <img src={minichart} className={`minichart`}  />
+                          <img src={LineChart} width={`100%`} height={100} className={`minichart`}  />
                            <div className={`DetailHolder`}>
                                 <span style={{color:'white'}}>Highest Price:</span>
                                 <span style={{color:'orange'}}>$53.698</span>
@@ -48,7 +48,7 @@ export default function FirstStatisticSection(){
                                 <span className={`Money`}>$494444.40</span>
                             </div>
                         </div>
-                          <img src={minichart} className={`minichart`}  />
+                          <img src={LineChart} width={`100%`} height={100} className={`minichart`}  />
                           <div className={`DetailHolder`}>
                                 <span style={{color:'white'}}>Highest Price:</span>
                                 <span style={{color:'orange'}}>$53.698</span>
@@ -75,7 +75,7 @@ export default function FirstStatisticSection(){
                                 <span className={`Money`}>$494444.40</span>
                             </div>
                         </div>
-                          <img src={minichart} className={`minichart`}  />
+                          <img src={LineChart} width={`100%`} height={100} className={`minichart`}  />
                            <div className={`DetailHolder`}>
                                 <span style={{color:'white'}}>Highest Price:</span>
                                 <span style={{color:'orange'}}>$53.698</span>
@@ -102,7 +102,7 @@ export default function FirstStatisticSection(){
                                 <span className={`Money`}>$494444.40</span>
                             </div>
                         </div>
-                          <img src={minichart} className={`minichart`}  />
+                          <img src={LineChart} width={`100%`} height={100} className={`minichart`}  />
                            <div className={`DetailHolder`}>
                                 <span style={{color:'white'}}>Highest Price:</span>
                                 <span style={{color:'orange'}}>$53.698</span>
@@ -120,7 +120,7 @@ export default function FirstStatisticSection(){
                                 <span style={{color:'orange'}}>#3,561,964,963</span>
                            </div>
                     </div>
-            </section>
+                </section>
         </>
     )
 }
