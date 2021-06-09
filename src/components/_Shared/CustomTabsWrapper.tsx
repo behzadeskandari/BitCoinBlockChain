@@ -24,11 +24,7 @@ export default function CustomTabsWrapper(){
     return(
         <>
         <div>
-                    <Tabs className={`displayFlex`} style={{height: '85vh'}}> 
-                        <AccordionPages/>
-                    </Tabs>
-        </div>
-        <div className={`SecurityBox`}>
+                    <div className={`SecurityBox`}>
                                     <Route exact path={'/SecuritySettings'} component={SecuritySettingsWrapper}> <SecuritySettingsWrapper/> </Route>
                                     <Route path={'/AccountSetting'} component={AccountSettingWrapper}> <AccountSettingWrapper /> </Route>
                                     <Route path={'/CurrencyAssets'} component={CurrencyAssetsWrapper}> <CurrencyAssetsWrapper /> </Route>
@@ -45,7 +41,13 @@ export default function CustomTabsWrapper(){
                                     <Route path={'/PromotingPartner'} component={PromotingPartner}> <PromotingPartner /> </Route>
                                     <Route path={'/Announcment'} component={Announcment}> <Announcment /> </Route>
                                     
+                    </div>
+                    <Tabs className={`displayFlex`} style={{height: '85vh'}}> 
+                        <AccordionPages/>
+                      
+                    </Tabs>
         </div>
+      
         </>
     )
 }

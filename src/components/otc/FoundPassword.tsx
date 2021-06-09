@@ -14,7 +14,7 @@ export default function FoundPassword(){
                                                         <b style={{color: 'white'}}>Found Password |</b>
                                                         When Account Funds Change. You Need To Verify The Funds Password First.
                                                 </span>
-                                        <span style={{padding: '10px' ,color: 'white', textAlign: 'center' ,width: '18%',display: 'flex',flexFlow: 'row wrap', justifyContent: 'center',marginRight: '10px',alignItems: 'center', backgroundColor: 'orange', borderRadius: '10px', marginLeft: '250px'}}>Modify</span>
+                                        <button style={{padding: '10px' ,color: 'white', textAlign: 'center' ,width: '18%',display: 'flex',flexFlow: 'row wrap', justifyContent: 'center',marginRight: '10px',alignItems: 'center', backgroundColor: 'orange', borderRadius: '10px', marginLeft: '370px'}}>Modify</button>
                                         </div>
           </section>
         </>
